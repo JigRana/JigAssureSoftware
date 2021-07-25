@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T11:32:22.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8350000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.assuresoftware.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Land confirmation record add",
+        "description": "",
+        "id": "land-confirmation-record-add-and-save-functionalty;land-confirmation-record-add",
+        "after": [
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.assuresoftware.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter username \"JigarR\" and password \"SHE129\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JigarR\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"SHE129\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.assuresoftware.stepdef.LoginStepDef.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4047000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login button and navigate to home page",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LoginStepDef.user_click_on_login_button_and_navigate_to_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6306000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Land Contamination using modules drop down menu",
+            "match": {
+              "location": "com.assuresoftware.stepdef.HomePageStepDef.user_click_on_land_contamination_using_modules_drop_down_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User nevigate to Land Confirmation Page",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_nevigate_to_land_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1732000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on New Record button",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_click_on_new_record_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3121000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill in sample date and Description fields",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_fill_in_sample_date_and_description_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1962000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on save and close button",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_click_on_save_and_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1568000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on New Record Button to add another record",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_click_on_new_record_button_to_add_another_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2766000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill new date and Description",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_fill_new_date_and_description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1868000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on save and close button",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_click_on_save_and_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click cog link and delete the first record that was created by test",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_click_cog_link_and_delete_the_first_record_that_was_created_by_test()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2020000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can see record succesfully deleted.",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_can_see_record_succesfully_deleted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 989000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User logged out from the website",
+            "match": {
+              "location": "com.assuresoftware.stepdef.LandconfirmationStepDef.user_logged_out_from_the_website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Land Confirmation Record add and save functionalty",
+    "description": "",
+    "id": "land-confirmation-record-add-and-save-functionalty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/landconfirmation.feature",
+    "tags": []
+  }
+]
